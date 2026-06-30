@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](./LICENSE)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue?style=flat-square)](./manifest.json)
 
-**一致性锚** 是一个为 [SillyTavern](https://github.com/SillyTavern/SillyTavern) 设计的 AI 角色扮演质量保障插件。它能有效防止角色在对话中出现**人称漂移、机械复读、格式错乱、设定遗忘、思维链泄露**等问题，让你的角色始终保持一致、沉浸的互动体验。（其实是在作者被大型世界书、角色卡和聊了很多层楼的超长上下文
+**一致性锚** 是一个为 [SillyTavern](https://github.com/SillyTavern/SillyTavern) 设计的 AI 角色扮演质量保障插件。它能有效防止角色在对话中出现**人称漂移、机械复读、格式错乱、设定遗忘、思维链泄露**等问题，让你的角色始终保持一致、沉浸的互动体验。（其实是作者遇到的各种问题没被预设解决，顺便想办法节省tokens）
 
 > 💡 **一句话概括**：给 AI 角色装上了"性格稳定器"和"记忆锚点"。
 
@@ -33,8 +33,7 @@
 1. 打开 SillyTavern，点击顶部菜单栏的 **扩展** (Extensions) 图标（🧩）。
 2. 在扩展管理面板中，点击 **"安装扩展"** (Install Extension)。
 3. 输入以下 GitHub 仓库地址：
-1.18及以上:https://github.com/px06427/Ganlu-wine
-1.13及以上:https://github.com/px06427/st_consistency_anchor
+https://github.com/px06427/st_consistency_anchor
 4. 点击 **"安装"**，等待安装完成。
 5. 刷新页面即可使用。
 
@@ -111,7 +110,6 @@
 · 最低支持 SillyTavern 1.13.0（主版本号 ≥ 1.13.0 均可）。
 · 旧版本可能部分功能不兼容，建议升级版本。
 · 因为朋友还在使用1.13版本的st所以想办法做了降级（拳击拷打！！），但其他版本是否兼容不太确定，因为实验小白鼠（bushi）太少了。
-· 总共做了两版，一个是自己用的适配1.18，一个是给朋友的适配1.13。大家自己选一下安装哪一个吧。
 
 ---
 
@@ -160,10 +158,9 @@ consistency-anchor/
 
 📬 联系方式
 
-· 作者：[甘露甘露酒]
+· 作者：[甘露]
 · GitHub：https://github.com/px06427
-· 问题反馈：1.18:https://github.com/px06427/Ganlu-wine/issues
-1.13:https://github.com/px06427/st_consistency_anchor/issues
+· 问题反馈：https://github.com/px06427/st_consistency_anchor/issues
 
 ---
 
