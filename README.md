@@ -9,16 +9,20 @@
 ## ✨ 功能亮点
 
 - 📂 **按角色分组**：所有聊天按角色名称折叠/展开，一目了然。
-- 🔍 **全局内容搜索**：搜索所有聊天消息文本，高亮显示匹配片段。
+- 🔍 **全局深层搜索**: 支持跨角色、跨窗口的全文搜索。采用高性能索引技术，即搜即得。
+- 🎯 **深海锚点引擎 (Deep Anchor Engine)**: 点击搜索结果直接“跃迁”。支持跨角色自动切换、自动加载文件，并精准定位到消息原文位置，辅以爆闪高亮反馈。
+- 📦 **极速批量操作**: 支持一键勾选多个会话，进行批量归档、批量删除或批量导出。
+- 📄 **多格式导出**: 完美支持将聊天记录导出为 `Markdown`、`JSONL (酒馆原生格式)`、`TXT` 格式。
+- 📥 **导入聊天记录**：支持 `.json` / `.jsonl` 格式文件（可多选），自动识别角色并写入存储。
+- 🌓 **物理采样主题适配**: 独家采用屏幕颜色采样技术，完美适配酒馆数千款自定义主题，确保文字始终清晰可见。
+- 📱 **全设备适配**: 针对 PC、平板、手机端进行了深度 UI 优化，支持触屏手势与响应式布局。
+- 🚀 **高性能渲染**: 基于虚拟列表技术，即使有数万条聊天记录，内存占用极低且滚动依然丝滑。
 - 📝 **消息预览**：点击会话即可在右侧预览消息列表（支持虚拟滚动，流畅查看超长对话）。
 - 🎯 **一键跳转原文**：每条消息旁有定位按钮，自动切换到对应角色和聊天，并滚动到消息原始位置（支持动态渲染等待）。
 - ☑️ **批量操作模式**：
   - 勾选多个会话，支持全选（可结合搜索结果筛选）。
   - 批量导出为 **Markdown / TXT / JSON** 格式。
   - 批量删除（含安全确认，自动避开正在使用的会话）。
-- 📥 **导入聊天记录**：支持 `.json` / `.jsonl` 格式文件（可多选），自动识别角色并写入存储。
-- 📤 **单会话导出**：支持 Markdown、TXT、官方 JSONL 格式。
-- 🎨 **深色/浅色主题**：一键切换，适配个人喜好。
 - 🖱️ **可拖拽浮动按钮**：位置自动记忆（保存在 localStorage），不遮挡操作。
 
 ---
@@ -56,12 +60,15 @@ https://github.com/px06427/st_consistency_anchor
 
 ---
 
-## 🛠️ 兼容性与要求
+## 🛠️ 技术规格
 
-- **SillyTavern** 版本 ≥ 1.0.0（已测试最新正式版）。
-- 现代浏览器（Chrome / Firefox / Edge 等）。
-- 支持移动端触摸操作。
-
+-   **框架**: Vue 3 + TypeScript
+-   **状态管理**: Pinia
+-   **构建工具**: Vite
+-   **核心优化**: 
+    -   `Virtual Scrolling` (解决海量数据卡顿)
+    -   `Deep Link Routing` (跨角色状态机同步)
+    -   `MutationObserver` (实时主题检测)
 ---
 
 ## 🤝 贡献与反馈
@@ -78,6 +85,12 @@ https://github.com/px06427/st_consistency_anchor
 
 ---
 
+## 📖 开发者的话
+
+本项目旨在解决酒馆原生聊天记录管理困难的痛点。我花费了大量精力攻克了酒馆底层 API 切换角色时可能出现的“空窗口”和“回弹”问题，确保了跳转定位的绝对稳定性。
+
+---
+
 ## 🙏 致谢
 
 - 感谢 [SillyTavern](https://github.com/SillyTavern/SillyTavern) 提供优秀的交互平台。
@@ -86,4 +99,21 @@ https://github.com/px06427/st_consistency_anchor
 
 ---
 
+## <a name="features-en"></a> 🌟 Key Features (English)
+
+-   **🔍 Global Deep Search**: Full-text search across all characters and chat files.
+-   **🎯 Deep Anchor Engine**: One-click jump from search results to the original message. Includes auto-character switching and pinpoint scrolling with visual feedback.
+-   **📦 Batch Processing**: Select multiple sessions for bulk deletion or export.
+-   **📄 Versatile Export**: Support for `.md`, `.jsonl`, and `.txt` formats.
+-   **🌓 Smart Theme Adaptation**: Real-time color sampling ensures readability across all SillyTavern themes.
+-   **📱 Cross-Platform**: Fully responsive design for PC, Tablet, and Mobile.
+-   
+---
+
 **Enjoy your chat management!** 🎉
+
+---
+
+### 💡 提示
+
+如果您在使用过程中遇到任何 Bug，欢迎提交 **Issue** 或 **Pull Request**！如果您觉得好用，请给一个 **Star** 🌟。
