@@ -6374,7 +6374,7 @@ const qa = { class: "modal-header" }, Ya = { class: "header-actions" }, Ga = ["d
         if (D) {
           I = !0;
           const J = () => D.scrollIntoView({ behavior: "smooth", block: "center" });
-          return J(), setTimeout(J, 200), setTimeout(J, 500), D.style.transition = "all 0.4s ease", D.style.boxShadow = "0 0 30px 10px rgba(255, 152, 0, 0.8)", D.style.backgroundColor = "rgba(255, 152, 0, 0.25)", setTimeout(() => {
+          return J(), setTimeout(J, 200), setTimeout(J, 500), D.style.transition = "all 0.5s ease", D.style.boxShadow = "0 0 30px 10px rgba(255, 152, 0, 0.8)", D.style.backgroundColor = "rgba(255, 152, 0, 0.25)", setTimeout(() => {
             D.style.boxShadow = "", D.style.backgroundColor = "";
           }, 3e3), h && x && a(D, x), !0;
         }
@@ -6757,7 +6757,7 @@ const qa = { class: "modal-header" }, Ya = { class: "header-actions" }, Ga = ["d
     ], 32)) : je("", !0);
   }
 });
-const xu = /* @__PURE__ */ _o(bu, [["__scopeId", "data-v-602cd7bd"]]), bo = "chat-log-manager-float-pos";
+const xu = /* @__PURE__ */ _o(bu, [["__scopeId", "data-v-5a416ca8"]]), bo = "chat-log-manager-float-pos";
 function Su() {
   try {
     const e = localStorage.getItem(bo);
