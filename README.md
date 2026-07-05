@@ -28,13 +28,13 @@
 
 1. 打开 SillyTavern，进入 **扩展（Extensions）** 面板。
 2. 在 **“Install from URL”** 输入框中粘贴以下地址：
-https://github.com/px06427/st_consistency_anchor
+https://github.com/px06427/chat-log-manager
 3. 点击 **Install**，等待下载完成。
 4. 刷新页面（或重启 SillyTavern），浮动按钮 📚 将出现在屏幕右下角。
 
 ### 方式二：手动下载
 
-1. 从https://github.com/px06427/st_consistency_anchor)中下载最新版本的 ZIP 包。
+1. 从https://github.com/px06427/chat-log-manager中下载最新版本的 ZIP 包。
 2. 点击绿色的 **“Code”** 按钮，选择 **“Download ZIP”**。
 3. 解压 ZIP 包，将解压后的文件夹重命名为 `chat-log-manager`（如果已命名则跳过）。
 4. 将整个文件夹放入 SillyTavern 的 `plugins/` 目录中。
@@ -69,8 +69,8 @@ https://github.com/px06427/st_consistency_anchor
 ## 🤝 贡献与反馈
 
 如果你遇到 Bug 或有功能建议，欢迎：
-- [Issue]https://github.com/px06427/st_consistency_anchor/issues
-- [Pull Request]https://github.com/px06427/st_consistency_anchorpulls
+- [Issue]https://github.com/px06427/chat-log-manager/issues
+- [Pull Request]https://github.com/px06427/chat-log-manager/pulls
 
 ---
 
@@ -89,7 +89,7 @@ https://github.com/px06427/st_consistency_anchor
 ## 🙏 致谢
 
 - 感谢 [SillyTavern](https://github.com/SillyTavern/SillyTavern) 提供优秀的交互平台。
-- 感谢为我开发独立前端时提供参考的RE老师授权（https://github.com/rikkahub/rikkahub）
+- 感谢为我开发独立前端时提供思路参考的RE老师授权（https://github.com/rikkahub/rikkahub）
 - 感谢所有使用和反馈的朋友们 ❤️
 
 ---
