@@ -10,7 +10,7 @@
 
 - 📂 **按角色分组**：所有聊天按角色名称折叠/展开，一目了然。
 - 🔍 **全局深层搜索**: 支持跨角色、跨窗口的全文搜索。采用高性能索引技术，即搜即得。
-- 🎯 **深海锚点引擎 (Deep Anchor Engine)**: 点击搜索结果直接“跃迁”。支持跨角色自动切换、自动加载文件，并精准定位到消息原文位置，辅以爆闪高亮反馈。
+- 🎯 **深海锚点引擎**: 点击搜索结果直接“跃迁”。支持跨角色自动切换、自动加载文件，并精准定位到消息原文位置，辅以高亮反馈。
 - 📦 **极速批量操作**: 支持一键勾选多个会话，进行批量删除（含安全确认，自动避开正在使用的会话）或批量导出。
 - 📄 **多格式导出**: 完美支持将聊天记录导出为 `Markdown`、`JSONL (酒馆原生格式)`、`TXT` 格式。
 - 📥 **导入聊天记录**：支持 `.json` / `.jsonl` 格式文件（可多选），不管是单角色还是多角色，都会自动识别角色并分别写入存储。
@@ -37,7 +37,7 @@ https://github.com/px06427/chat-log-manager
 1. 从https://github.com/px06427/chat-log-manager中下载最新版本的 ZIP 包。
 2. 点击绿色的 **“Code”** 按钮，选择 **“Download ZIP”**。
 3. 解压 ZIP 包，将解压后的文件夹重命名为 `chat-log-manager`（如果已命名则跳过）。
-4. 将整个文件夹放入 SillyTavern 的 `plugins/` 目录中。
+4. 将整个文件夹放入 SillyTavern 的 `data\default-user\extensions\` 或者 `public\scripts\extensions\third-party` 目录中。
 5. 重启 SillyTavern 或刷新页面。
 ---
 
@@ -61,9 +61,9 @@ https://github.com/px06427/chat-log-manager
 -   **状态管理**: Pinia
 -   **构建工具**: Vite
 -   **核心优化**: 
-    -   `Virtual Scrolling` (解决海量数据卡顿)
-    -   `Deep Link Routing` (跨角色状态机同步)
-    -   `MutationObserver` (实时主题检测)
+    -   `Virtual Scrolling`
+    -   `Deep Link Routing`
+    -   `MutationObserver`
 ---
 
 ## 🤝 贡献与反馈
